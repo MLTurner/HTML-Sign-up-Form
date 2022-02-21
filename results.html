@@ -33,7 +33,8 @@
         let extras = urlParams.getAll('extras')
         let email = urlParams.get('email') 
         let address = urlParams.get('address') 
-        let cityStateZip = `${urlParams.get('city')}, ${urlParams.get('state')} ${urlParams.get('zip')}`
+        let cityStateZip = `${urlParams.get('city')}, ${urlParams.get('state')}
+         ${urlParams.get('zip')}`
         let emailMessage = document.createElement('p')
         
         // Fill the page with the user's personal information
